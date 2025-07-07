@@ -1,28 +1,32 @@
 import type { Metadata } from "next";
 import { Bricolage_Grotesque } from "next/font/google";
+import { ClerkProvider } from "@clerk/nextjs";
 import "./globals.css";
-import Navbar from "@/components/Navbar" ;
+import Navbar from "@/components/Navbar";
+
 const bricolage = Bricolage_Grotesque({
   variable: "--font-bricolage",
   subsets: ["latin"],
 });
-import React from 'react' ;
+
 export const metadata: Metadata = {
   title: "TechAdemy",
   description: "Real-time AI Teaching Platform",
 };
 
 export default function RootLayout({
-  children,
-}: Readonly<{
+                                     children,
+                                   }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+      <html lang="en">
       <body className={`${bricolage.variable} antialiased`}>
+      <ClerkProvider appearance={{ variables: { colorPrimary: '#fe5933' }} }>
         <Navbar />
-      {children}
+        {children}
+      </ClerkProvider>
       </body>
-    </html>
+      </html>
   );
 }
