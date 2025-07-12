@@ -5,21 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97ac58ec-e752-49a6-b02a-1e69191d8cce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/sign-in/[[...sign-in]]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/CTA.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/CompanionCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/CompanionForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/CompanionsList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/actions/companion.actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/supabase.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/CompanionComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/SearchInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/SubjectFilter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/select.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/vapi.sdk.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/companions/new/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/companions/new/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/companions/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/companions/[id]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/companions/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/companions/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/my-journey/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/my-journey/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sign-in/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/subscription/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/subscription/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -31,18 +28,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "anshumansharma0512"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;anshumansharma0512&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/anshumansharma0512/TechAdemy.git",
-    "accountId": "cd913f07-ab54-4a20-850f-11ec52618cde"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/anshumansharma0512/TechAdemy.git&quot;,
+    &quot;accountId&quot;: &quot;cd913f07-ab54-4a20-850f-11ec52618cde&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
@@ -60,6 +57,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "js.debugger.nextJs.config.created.client": "true",
     "js.debugger.nextJs.config.created.server": "true",
@@ -69,6 +67,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "ts.external.directory.path": "D:\\Coding\\project2\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -103,7 +102,8 @@
       <option name="presentableId" value="Default" />
       <updated>1751818879405</updated>
       <workItem from="1751818882215" duration="47000" />
-      <workItem from="1751818930916" duration="16449000" />
+      <workItem from="1751818930916" duration="27588000" />
+      <workItem from="1752319500612" duration="13656000" />
     </task>
     <servers />
   </component>
