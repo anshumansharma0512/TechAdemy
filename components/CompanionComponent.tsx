@@ -129,9 +129,11 @@ const CompanionComponent = ({ companionId, subject, topic, name, userName, userI
                     </div>
                     <button className="btn-mic" onClick={toggleMicrophone} disabled={callStatus !== CallStatus.ACTIVE}>
                         <Image src={isMuted ? '/icons/mic-off.svg' : '/icons/mic-on.svg'} alt="mic" width={36} height={36} />
-                        <p className="max-sm:hidden">
+                        <p className="max-sm:hidden" disabled={callStatus !== CallStatus.ACTIVE}>
                             {isMuted ? 'Turn on microphone' : 'Turn off microphone'}
                         </p>
+
+
                     </button>
                     <button className={cn('rounded-lg py-2 cursor-pointer transition-colors w-full text-white', callStatus ===CallStatus.ACTIVE ? 'bg-red-700' : 'bg-primary', callStatus === CallStatus.CONNECTING && 'animate-pulse')} onClick={callStatus === CallStatus.ACTIVE ? handleDisconnect : handleCall}>
                         {callStatus === CallStatus.ACTIVE
